@@ -36,8 +36,8 @@
 #############################################################################
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets
-import PyQt5.QtNetwork as QtNetwork
+from PyQt6 import QtCore, QtGui, QtWidgets
+import PyQt6.QtNetwork as QtNetwork
 import json
 
 

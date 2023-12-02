@@ -7,7 +7,7 @@
 # All rights reserved.
 #
 
-from PyQt5 import QtGui, QtDesigner
+from PyQt6 import QtGui, QtDesigner
 
 from clockwidget import ClockWidget
 

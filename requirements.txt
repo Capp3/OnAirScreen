@@ -1,4 +1,5 @@
-PyQt5
+PyQt6
 ntplib
 PyInstaller
 pyqt-distutils
+pyqt6-tools
