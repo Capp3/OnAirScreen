@@ -1,10 +1,12 @@
 ---
+version: '3'
 services:
   OnAirScreen:
+    container_name: OnAirScreen
     image: OnAirScreen
     build: .
     environment:
-      - DISPLAY=${DISPLAY}
+      - DISPLAY=:0
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
     network_mode: host
