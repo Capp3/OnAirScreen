@@ -45,13 +45,13 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import unquote
 
 import ntplib
-from PyQt6.QtCore import Qt, QSettings, QCoreApplication, QTimer, QDate, QLocale, QThread
-from PyQt6.QtGui import QCursor, QPalette, QKeySequence, QIcon, QPixmap, QFont
-from PyQt6.QtNetwork import QUdpSocket, QNetworkInterface, QHostAddress
-from PyQt6.QtWidgets import QApplication, QWidget, QShortcut, QDialog, QLineEdit, QVBoxLayout, QLabel
+from PyQt5.QtCore import Qt, QSettings, QCoreApplication, QTimer, QDate, QLocale, QThread
+from PyQt5.QtGui import QCursor, QPalette, QKeySequence, QIcon, QPixmap, QFont
+from PyQt5.QtNetwork import QUdpSocket, QNetworkInterface, QHostAddress
+from PyQt5.QtWidgets import QApplication, QWidget, QShortcut, QDialog, QLineEdit, QVBoxLayout, QLabel
 
 from mainscreen import Ui_MainScreen
-from settings_functions import Settings, versionString
+from app.settings_functions import Settings, versionString
 
 HOST = '0.0.0.0'
 

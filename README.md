@@ -1,4 +1,7 @@
-# OnAirScreen
+# OnAirScreen Dockerized
+
+An attempt to dockerize this great program;
+
 Multi purpose "OnAir Lamp" solution targeted for use in professional broadcast environments
 http://saschaludwig.github.io/OnAirScreen/
 

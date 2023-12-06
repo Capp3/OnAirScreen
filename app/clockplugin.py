@@ -7,9 +7,9 @@
 # All rights reserved.
 #
 
-from PyQt6 import QtGui, QtDesigner
+from PyQt5 import QtGui, QtDesigner
 
-from clockwidget import ClockWidget
+from app.clockwidget import ClockWidget
 
 
 class ClockPlugin(QtDesigner.QPyDesignerCustomWidgetPlugin):

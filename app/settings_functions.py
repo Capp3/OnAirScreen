@@ -40,15 +40,15 @@ import textwrap
 from collections import defaultdict
 from uuid import getnode
 
-import PyQt6.QtNetwork as QtNetwork
-from PyQt6.QtCore import QSettings, QVariant, pyqtSignal, QUrl, QUrlQuery
-from PyQt6.QtGui import QPalette, QColor, QFont
-from PyQt6.QtWidgets import QWidget, QColorDialog, QFileDialog, QErrorMessage, QMessageBox, QFontDialog
+import PyQt5.QtNetwork as QtNetwork
+from PyQt5.QtCore import QSettings, QVariant, pyqtSignal, QUrl, QUrlQuery
+from PyQt5.QtGui import QPalette, QColor, QFont
+from PyQt5.QtWidgets import QWidget, QColorDialog, QFileDialog, QErrorMessage, QMessageBox, QFontDialog
 
 from settings import Ui_Settings
-from utils import TimerUpdateMessageBox
-from version import versionString
-from weatherwidget import WeatherWidget as ww
+from app.utils import TimerUpdateMessageBox
+from app.version import versionString
+from app.weatherwidget import WeatherWidget as ww
 
 try:
     from distribution import distributionString, update_url

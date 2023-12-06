@@ -79,9 +79,9 @@
 
 import time as pytime
 
-from PyQt6 import QtCore, QtGui, QtWidgets
-from PyQt6.QtCore import QRectF
-from PyQt6.QtGui import QColor
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QRectF
+from PyQt5.QtGui import QColor
 
 
 class ClockWidget(QtWidgets.QWidget):
