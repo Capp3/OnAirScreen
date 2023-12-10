@@ -51,7 +51,7 @@ from PyQt5.QtNetwork import QUdpSocket, QNetworkInterface, QHostAddress
 from PyQt5.QtWidgets import QApplication, QWidget, QShortcut, QDialog, QLineEdit, QVBoxLayout, QLabel
 
 from mainscreen import Ui_MainScreen
-from app.settings_functions import Settings, versionString
+from settings_functions import Settings, versionString
 
 HOST = '0.0.0.0'
 

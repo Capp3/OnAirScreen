@@ -46,9 +46,9 @@ from PyQt5.QtGui import QPalette, QColor, QFont
 from PyQt5.QtWidgets import QWidget, QColorDialog, QFileDialog, QErrorMessage, QMessageBox, QFontDialog
 
 from settings import Ui_Settings
-from app.utils import TimerUpdateMessageBox
-from app.version import versionString
-from app.weatherwidget import WeatherWidget as ww
+from utils import TimerUpdateMessageBox
+from version import versionString
+from weatherwidget import WeatherWidget as ww
 
 try:
     from distribution import distributionString, update_url

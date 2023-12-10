@@ -9,7 +9,7 @@
 
 from PyQt5 import QtGui, QtDesigner
 
-from app.clockwidget import ClockWidget
+from clockwidget import ClockWidget
 
 
 class ClockPlugin(QtDesigner.QPyDesignerCustomWidgetPlugin):
